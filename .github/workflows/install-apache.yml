@@ -8,6 +8,8 @@ jobs:
   setup_httpd:
     runs-on: self-hosted  # CentOS 9 runner assumed
     steps:
+      - name: Test sudo
+        run: sudo whoami
       - name: Install Apache HTTPD
         run: |
           sudo dnf install -y httpd
