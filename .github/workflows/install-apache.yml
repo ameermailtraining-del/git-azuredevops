@@ -22,5 +22,5 @@ jobs:
           echo "<!DOCTYPE html>
           <html>
           <head><title>Apache HTTPD is Running</title></head>
-          <body><h1>Welcome to Apache on CentOS 9!</h1></body>
+          <body><h1>Hello World</h1></body>
           </html>" | sudo tee /var/www/html/index.html > /dev/null
