@@ -27,5 +27,5 @@ jobs:
 
       - name: Set permissions on index.html
         run: |
-          chown apache:apache /var/www/html/index.html
-          chmod 644 /var/www/html/index.html
+          sudo chown apache:apache /var/www/html/index.html
+          sudo chmod 644 /var/www/html/index.html
