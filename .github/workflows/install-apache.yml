@@ -19,7 +19,7 @@ jobs:
 
       - name: Create index.html
         run: |
-          echo "<!DOCTYPE html>
+          sudo echo "<!DOCTYPE html>
           <html>
           <head><title>Apache HTTPD is Running</title></head>
           <body><h1>Welcome to Apache on CentOS 9!</h1></body>
