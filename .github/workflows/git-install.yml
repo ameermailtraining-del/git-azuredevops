@@ -13,5 +13,5 @@ jobs:
 
       - name: Install Git on CentOS 9
         run: |
-          dnf install -y git
+          sudo dnf install -y git
           git --version
